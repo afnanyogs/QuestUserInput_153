@@ -27,3 +27,6 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import com.example.questuserinput_153.R
 
+@Composable
+fun FormDataDiri(modifier: Modifier
+) {
