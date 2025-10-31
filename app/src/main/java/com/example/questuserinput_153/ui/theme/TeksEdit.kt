@@ -30,3 +30,8 @@ import com.example.questuserinput_153.R
 @Composable
 fun FormDataDiri(modifier: Modifier
 ) {
+    //variabel-variabel untuk mengingat nilai nasukan dari keyboard
+    var textNama by remember { mutableStateOf("") }
+    var textAlamat by remember { mutableStateOf("") }
+    var textJK by remember { mutableStateOf("") }
+
